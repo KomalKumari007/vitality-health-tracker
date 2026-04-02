@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vitality AI Tracker</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 📊 Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Vitality AI Health Tracker</h1>
+
+    <div class="card">
+      <label >Sleep (hours)</label>
+      <input type="number" id="sleep" placeholder="0 - 12">
+
+      <label>Water (litres)</label>
+      <input type="number" id="water" placeholder="0 - 5">
+
+      <label>Stress (1-10)</label>
+      <input type="number" id="stress" placeholder="1 - 10">
+
+      <button id="checkBtn">Check Health</button>
+    </div>
+
+    <div class="card result-box">
+      <h2 id="score">Health Score: --</h2>
+      <p id="suggestion"></p>
+    </div>
+
+    <!-- 📊 Chart Section -->
+    <div class="card">
+      <canvas id="healthChart"></canvas>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
