@@ -15,7 +15,7 @@ A web app that tracks sleep, water intake, and stress levels to generate a healt
 - Chart.js
 
 ## Live Demo
-(Add your link here after deployment)
+https://komalkumari007.github.io/vitality-health-tracker/
 ## Challenges & Learnings
 
 - Faced issue with Chart.js not rendering due to incorrect object handling.
